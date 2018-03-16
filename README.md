@@ -14,4 +14,4 @@ http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.ht
 
 
 #### Notes
-Requires to have Scikit-learn and matplotlib to run
+Requires to have Scikit-learn and matplotlib libraries installed to run
