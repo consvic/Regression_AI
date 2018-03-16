@@ -6,7 +6,7 @@ Constanza Liévanos A01361506 Cesar Guadarrama cantu A01364853 Allan Julian A013
 
 ## Datasets
 The dataset used for linear and ridge regression are:
-http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits
+http://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html
 
 The dataset used for logistic regression are:
 http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits
