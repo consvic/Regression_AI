@@ -1,6 +1,6 @@
 # Regression_AI
 
-Intelligent Systems First Project, using linear, ridge and logistic regression. Python implementation
+Intelligent Systems Second Project, using linear, ridge and logistic regression. Python implementation
 
 Constanza Liévanos A01361506 Cesar Guadarrama cantu A01364853 Allan Julian A01361651 16/03/18
 
