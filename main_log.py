@@ -21,9 +21,9 @@ print("Training set score: {:.3f}".format(logreg.score(X_train, y_train)))
 print("Test set score: {:.3f}".format(logreg.score(X_test, y_test)))
 
 digits_y_pred = logreg.predict(X_test)
-'''print("Test set y:")
+print("Test set y:")
 print(y_test)
 print("Prediction set y:")
 print(digits_y_pred)
 print("Absolute value of Y test and Y prediction")
-print(abs(y_test - digits_y_pred))'''
+print(abs(y_test - digits_y_pred))
