@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import numpy as np
 from sklearn import datasets, linear_model
 from sklearn.metrics import mean_squared_error, r2_score
 
@@ -38,8 +37,8 @@ print("Mean square error: %.6f" % mean_squared_error(california_housing_Y_test, 
 # Explained variance score: 1 is perfect prediction
 print("Variance score: %.6f" % r2_score(california_housing_Y_test, california_housing_Y_pred))
 
-plt.scatter(california_housing_X_test, california_housing_Y_test, color='black')
-plt.plot(california_housing_X_test, california_housing_Y_pred, color='blue', linewidth=3)
+plt.scatter(california_housing_X_test, california_housing_Y_test, color='blue')
+plt.plot(california_housing_X_test, california_housing_Y_pred, color='red', linewidth=3)
 
 plt.xticks()
 plt.yticks()

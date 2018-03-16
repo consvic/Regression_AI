@@ -7,14 +7,13 @@ from sklearn.metrics import mean_squared_error, r2_score
 california_housing = datasets.fetch_california_housing()
 X = california_housing.data
 Y = california_housing.target
+
 # Use only one feature
-# california_housing_X = california_housing.data[:, np.newaxis, 7]
-california_housing_X = california_housing.data
 offset = int(X.shape[0] * 0.8)
 
 # Split the data into training/testing sets
-california_housing_X_train = california_housing_X[:offset]
-california_housing_X_test = california_housing_X[offset:]
+california_housing_X_train = X[:offset]
+california_housing_X_test = X[offset:]
 
 # Split the targets into training/testing sets
 california_housing_Y_train = Y[:offset]

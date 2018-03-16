@@ -18,6 +18,6 @@ logreg.fit(X_train, y_train)
 
 print("Training set score: {:.3f}".format(logreg.score(X_train, y_train)))
 print("Test set score: {:.3f}".format(logreg.score(X_test, y_test)))
-# wine_y_pred = logreg.predict(X_test)
+
 digits_y_pred = logreg.predict(X_test)
-print(abs(y_test - digits_y_pred))
+print("Predicted values vs output values: {:.3f}".format(abs(y_test - digits_y_pred)))
