@@ -10,3 +10,8 @@ http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.ht
 
 The dataset used for logistic regression are:
 http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits
+
+
+
+#### Notes
+Requires to have Scikit-learn and matplotlib to run
